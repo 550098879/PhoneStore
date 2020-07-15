@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PhoneStore.iml" filepath="$PROJECT_DIR$/.idea/PhoneStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phone-store_server/phone-store_server.iml" filepath="$PROJECT_DIR$/phone-store_server/phone-store_server.iml" />
+    </modules>
+  </component>
+</project>

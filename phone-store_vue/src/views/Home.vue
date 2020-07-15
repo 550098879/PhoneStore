@@ -28,10 +28,19 @@
             <van-goods-action-button color="#7232dd" text="加入购物" type="warning"/>
             <van-goods-action-button plain color="#7232dd" text="立即购买"/>
         </van-goods-action>
+
+
+
     </div>
 </template>
 
 <script>
+    import {
+        Toast,
+        PullRefresh,
+        Swipe,
+        SwipeItem
+    } from 'vant';
     export default {
         data() {
             return {
@@ -39,6 +48,11 @@
 
             }
         },
+        onBuyClicked(item){
+            this.$store.state.specsId = item.selectedSkuComb.s1
+            this.$store.state.quantity = item.selectedNum
+            this.$router.push('/addressList')
+        }
 
     }
 </script>
